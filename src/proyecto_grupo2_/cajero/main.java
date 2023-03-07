@@ -16,7 +16,11 @@ public class main {
     public static void main(String[] args) {
         // TODO code application logic here
         //This is a test
-        int a;
+        int a = 0,b=5,c=4;
+        int suma = a+b+c;
+        
+        clsHelper clsH = new clsHelper();
+        clsH.imprimeMensaje("Resultado: "+suma);
     }
-    
+        
 }
