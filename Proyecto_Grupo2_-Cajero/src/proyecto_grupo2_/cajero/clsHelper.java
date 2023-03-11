@@ -29,6 +29,7 @@ public class clsHelper {
         public String recibeString(String mensajeUsuario){
         String auxiliar = JOptionPane.showInputDialog(mensajeUsuario);
         return auxiliar;
+                //hola
     }
         public void imprimeMensaje(String mensajeImprimir){
             JOptionPane.showMessageDialog(null, mensajeImprimir);
